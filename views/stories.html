@@ -1,0 +1,22 @@
+<!-- STORIES LIST -->
+<div ng-controller="StoriesCtrl">
+    <div class="col s8">
+        <h2>Stories</h2>
+        <div class="card" ng-repeat="story in data">
+            <div class="card-content">
+                <span class="card-title black-text">{{story.title}}</span>
+                <p>{{story.description}}</p>
+            </div>
+            <div class="card-action">
+                <a href="#">Read Story</a>
+                <a href="#">Edit</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- STORIES -->
+    <div class="col s4">
+        <h2>Options</h2>
+        <a class="btn" href="#/create">Create Story</a>
+    </div>
+</div>

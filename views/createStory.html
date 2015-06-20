@@ -1,0 +1,28 @@
+<div ng-controller="CreateStoryCtrl">
+    <form>
+        <div class="row">
+            <div class="input-field col s12">
+                <input type="text" id="title" class="validate" ng-model="story.title"/>
+                <label for="title">Title</label>
+            </div>
+            <div class="input-field col s12">
+                <textarea id="description" class="materialize-textarea" ng-model="story.description"></textarea>
+                <label for="description">Description</label>
+            </div>
+            <div class="input-field col s12">
+                <textarea id="firstcontent" class="materialize-textarea" ng-model="story.firstcontent"></textarea>
+                <label for="firstcontent">First content</label>
+            </div>
+            <div class="input-field col s12">
+                <a class="waves-effect waves-light btn" type="submit" ng-click="create(story)">Create</a>
+            </div>
+        </div>
+    </form>
+
+    <div class="card col s8">
+        <div class="card-content">
+            <span class="card-title black-text">{{story.title}}</span>
+            <p>{{story.description}}</p>
+        </div>
+    </div>
+</div>
