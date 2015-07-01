@@ -1,4 +1,4 @@
-var app = angular.module('story', ['ngRoute']);
+var app = angular.module('story', ['ngRoute', 'ui.materialize']);
 
 app.config(['$routeProvider',
     function ($routeProvider) {
@@ -10,6 +10,14 @@ app.config(['$routeProvider',
             .when('/create', {
                 templateUrl: 'views/createStory.html',
                 controller: 'CreateStoryCtrl'
+            })
+            .when('/read/:fragmentId', {
+                templateUrl: 'views/readStory.html',
+                controller: 'ReadStoryCtrl as story'
+            })
+            .when('/edit/:fragmentId', {
+                templateUrl: 'views/editStory.html',
+                controller: 'EditStoryCtrl as story'
             })
             .otherwise({
                 redirectTo: '/stories'
