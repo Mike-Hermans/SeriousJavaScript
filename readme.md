@@ -32,7 +32,7 @@ Onder de opties lijst kun je zelf een nieuwe optie toevoegen. 'Option title' sta
 die ook in de lijst staat. 'Content' is het nieuwe stuk verhaal waar je naartoe gaat als je op de optie klikt.
 
 #Info
-Ik heb gebruik gemaakt van:
+Ik heb gebruik gemaakt van: 
 * AngularJS
     * Javascript Framework
 * Materialize CSS
