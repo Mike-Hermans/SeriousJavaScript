@@ -6,7 +6,8 @@ en waarbij ieder deel van het verhaal zijn eigen keuzes heeft.
 Vanaf het moment dat je op de website komt, zie je meteen een of meerdere verhalen staan.
 Bij een verhaal kun je op 'READ' klikken op het verhaal te lezen, of op 'EDIT' om zelf het 
 verhaal te wijzigen. Door op 'CREATE STORY' te drukken aan de rechter kant, kun je je eigen
-verhaal maken.
+verhaal maken. Door op 'Story' te klikken in de balk boven aan het scherm, ga je terug naar
+de index pagina.
 
 ##Read Story
 Door op 'READ STORY' te klikken, kom je op het volgende scherm. Hier kan je een stuk van een verhaal
